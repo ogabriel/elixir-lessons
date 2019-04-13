@@ -2,16 +2,17 @@
 [3.15, :pie, "three dot forteen"]
 
 # Prepending (fast)
-iex> ["π"] ++ list
-["π", 3.14, :pie, "Apple"]
+["π"] ++ list
+# ["π", 3.14, :pie, "Apple"]
+
 # Appending (slow)
-iex> list ++ ["Cherry"]
+list ++ ["Cherry"]
 
 # head and tail
-iex> hd [3.14, :pie, "Apple"]
-3.14
-iex> tl [3.14, :pie, "Apple"]
-[:pie, "Apple"]
+hd [3.14, :pie, "Apple"]
+# 3.14
+tl [3.14, :pie, "Apple"]
+# [:pie, "Apple"]
 
 # turples
 {3.14, :pie, "Apple"}
@@ -26,7 +27,7 @@ iex> tl [3.14, :pie, "Apple"]
 # maps - any type of keys, unordered, dont allow duplicates (but wont give errors)
 map = %{:foo => "bar", "hello" => :world}
 
-iex> key = "hello"
-"hello"
-iex> %{key => "world"}
-%{"hello" => "world"}
+key = "hello"
+# "hello"
+%{key => "world"}
+# %{"hello" => "world"}
