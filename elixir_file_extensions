@@ -1,0 +1,14 @@
+there is two different file extensiosn:
+.ex
+compiled code, when compiled it will generate .beam files,
+which is the bytecode for the erlang machine understands
+for the compilation you use: elixirc file.ex
+* that is just valid for modules, if the was a module inside that,
+it will generate Elixir.Module.beam, for futher use
+
+.exs
+interpreted code, you dont have to recompile
+everytime that you have to run it, because
+it has to reparse everything
+when you run the exs with elixir file.exs it
+will only be available at the memory
