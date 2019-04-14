@@ -12,3 +12,6 @@ everytime that you have to run it, because
 it has to reparse everything
 when you run the exs with elixir file.exs it
 will only be available at the memory
+
+you can even read a file in the iex console with:
+c("file.ex/exs")
