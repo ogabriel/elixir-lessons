@@ -10,3 +10,5 @@ sum.(2, 3)
 # Shorthand version
 sum = &(&1 + &2)
 sum.(2, 3)
+
+even = fn a -> rem(a, 2) == 0 end

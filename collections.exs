@@ -9,9 +9,9 @@
 list ++ ["Cherry"]
 
 # head and tail
-hd [3.14, :pie, "Apple"]
+hd([3.14, :pie, "Apple"])
 # 3.14
-tl [3.14, :pie, "Apple"]
+tl([3.14, :pie, "Apple"])
 # [:pie, "Apple"]
 
 # turples
@@ -26,7 +26,9 @@ tl [3.14, :pie, "Apple"]
 
 # maps - any type of keys, unordered, dont allow duplicates (but wont give errors)
 map = %{:foo => "bar", "hello" => :world}
-
+map = %{foo: "bar", hello: "world"}
+# you cant mix togheter
+#
 key = "hello"
 # "hello"
 %{key => "world"}
