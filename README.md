@@ -1,2 +1,4 @@
 # elixir-lessons
-somethings that i am learning at elixir
+something in elixir
+
+sem tempo irmão
