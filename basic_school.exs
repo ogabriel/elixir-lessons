@@ -25,7 +25,8 @@ is_atom(MyApp.MyModule)
 {:hello, :world} > [1, 2, 3]
 # false
 
-# concatenation
-"Hello #{name}"
 name = "Sean"
+# interpolation
+"Hello #{name}"
+# concatenation
 "Hello " <> name
