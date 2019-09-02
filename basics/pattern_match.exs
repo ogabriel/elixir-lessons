@@ -31,6 +31,7 @@ value
 # ** (MatchError) no match of right hand side value: {:error}
 
 # PIN OPERATOR
+# basically doesnt allow a undesirable assignment
 # matchs to the value inside the variable, not the variable itself
 # because in some case it could give a new value for the variable
 x = 1
