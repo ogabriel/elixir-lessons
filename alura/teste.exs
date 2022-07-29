@@ -4,8 +4,15 @@ defmodule MeuModulo do
 
   alias MeuModulo.Math, as: MyMath
 
+  require Integer
+
   def ola_mundo do
     inspect(MyMath.soma(1, 2))
+  end
+
+  def exibe_se_eh_par(numero) do
+    # require Integer
+    puts("O numero #{numero} é par? #{Integer.is_even(numero)}")
   end
 
   def inspect(parametro) do
