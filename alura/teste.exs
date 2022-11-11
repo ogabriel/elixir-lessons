@@ -26,3 +26,4 @@ end
 # import_file "teste.exs"
 # MeuModulo.ola_mundo
 # r(MeuModulo)
+# c "teste.exs"
