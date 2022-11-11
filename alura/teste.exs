@@ -15,7 +15,7 @@ defmodule MeuModulo do
     puts("O numero #{numero} é par? #{Integer.is_even(numero)}")
   end
 
-  def inspect(parametro) do
+  defp inspect(parametro) do
     puts("começando")
     puts(parametro)
     puts("terminando")
