@@ -1,4 +1,6 @@
-defmodule MeuModulo.Tabuada do
+defmodule MeuModulo.TabuadaBody do
+  # uses body recursion
+
   def calcula(multiplicador) do
     tabuada(multiplicador, 1)
   end
