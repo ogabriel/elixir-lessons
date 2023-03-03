@@ -5,9 +5,9 @@ defmodule MeuModulo.TabuadaBody do
     tabuada(multiplicador, 1)
   end
 
-  def tabuada(_, 11), do: []
+  defp tabuada(_, 11), do: []
 
-  def tabuada(produto1, produto2 = 1) do
+  defp tabuada(produto1, produto2) do
     [produto1 * produto2 | tabuada(produto1, produto2 + 1)]
   end
 end
