@@ -11,8 +11,8 @@ defmodule Bencher.Recursion do
       inputs: inputs,
       memory_time: 5,
       formatters: [
-        {Benchee.Formatters.Markdown, file: "recursion.md"},
-        {Benchee.Formatters.HTML, file: "recursion.html"}
+        {Benchee.Formatters.Markdown, file: "lib/bencher/recursion/recursion.md"},
+        {Benchee.Formatters.HTML, file: "lib/bencher/recursion/recursion.html"}
       ]
     )
   end
