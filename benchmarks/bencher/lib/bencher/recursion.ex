@@ -13,7 +13,7 @@ defmodule Bencher.Recursion do
       inputs: inputs(),
       memory_time: 5,
       formatters: [
-        {Benchee.Formatters.Markdown, file: "lib/bencher/recursion/recursion.md"}
+        {Benchee.Formatters.Markdown, file: "../recursion.md"}
       ]
     )
   end
