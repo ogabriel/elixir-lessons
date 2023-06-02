@@ -1,14 +1,16 @@
 defmodule Bencher.Recursion do
   alias Bencher.Recursion
 
-  def perform do
+  @behaviour Bencher.Base
+
+  def run do
     Benchee.run(
       %{
         "Body recursion" => fn input -> Recursion.BodyRecursion.sum_numbers(input) end,
         "Tail recursion" => fn input -> Recursion.TailRecursion.sum_numbers(input) end,
         "Enum.reduce" => fn input -> Recursion.EnumReduce.sum_numbers(input) end
       },
-      inputs: inputs,
+      inputs: inputs(),
       memory_time: 5,
       formatters: [
         {Benchee.Formatters.Markdown, file: "lib/bencher/recursion/recursion.md"},
@@ -17,11 +19,11 @@ defmodule Bencher.Recursion do
     )
   end
 
-  defp inputs do
+  def inputs do
     %{
-      "Small" => inputs_small,
-      "Medium" => inputs_medium,
-      "Big" => inputs_big
+      "Small" => inputs_small(),
+      "Medium" => inputs_medium(),
+      "Big" => inputs_big()
     }
   end
 
