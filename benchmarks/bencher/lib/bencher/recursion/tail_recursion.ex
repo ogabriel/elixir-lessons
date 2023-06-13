@@ -20,7 +20,7 @@ defmodule Bencher.Recursion.TailRecursion do
   end
 
   defp do_double_numbers([head | tail], list) when is_number(head) do
-    do_double_numbers(tail, [head | list])
+    do_double_numbers(tail, [head * 2 | list])
   end
 
   defp do_double_numbers([_head | tail], list) do
