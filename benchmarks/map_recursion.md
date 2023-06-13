@@ -1,6 +1,6 @@
 Benchmark
 
-Benchmark run from 2023-06-13 13:31:28.863461Z UTC
+Benchmark run from 2023-06-13 14:08:43.354208Z UTC
 
 ## System
 
@@ -65,56 +65,56 @@ Run Time
 
   <tr>
     <td style="white-space: nowrap">Tail recursion</td>
-    <td style="white-space: nowrap; text-align: right">11.39 K</td>
-    <td style="white-space: nowrap; text-align: right">87.78 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">&plusmn;21.40%</td>
-    <td style="white-space: nowrap; text-align: right">83.02 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">161.40 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">14.89 K</td>
+    <td style="white-space: nowrap; text-align: right">67.18 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">&plusmn;15.63%</td>
+    <td style="white-space: nowrap; text-align: right">67.11 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">111.49 &micro;s</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">Tail recursion + Enum.reverse</td>
-    <td style="white-space: nowrap; text-align: right">9.03 K</td>
-    <td style="white-space: nowrap; text-align: right">110.74 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">&plusmn;34.07%</td>
-    <td style="white-space: nowrap; text-align: right">99.49 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">233.51 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">10.93 K</td>
+    <td style="white-space: nowrap; text-align: right">91.47 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">&plusmn;16.68%</td>
+    <td style="white-space: nowrap; text-align: right">89.20 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">163.95 &micro;s</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">Body recursion</td>
-    <td style="white-space: nowrap; text-align: right">7.98 K</td>
-    <td style="white-space: nowrap; text-align: right">125.38 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">&plusmn;29.26%</td>
-    <td style="white-space: nowrap; text-align: right">113.38 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">265.89 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">9.38 K</td>
+    <td style="white-space: nowrap; text-align: right">106.59 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">&plusmn;19.22%</td>
+    <td style="white-space: nowrap; text-align: right">102.36 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">208.52 &micro;s</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">Enum.reduce</td>
-    <td style="white-space: nowrap; text-align: right">7.43 K</td>
-    <td style="white-space: nowrap; text-align: right">134.62 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">&plusmn;38.09%</td>
-    <td style="white-space: nowrap; text-align: right">121.39 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">294.25 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">8.08 K</td>
+    <td style="white-space: nowrap; text-align: right">123.73 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">&plusmn;20.90%</td>
+    <td style="white-space: nowrap; text-align: right">118.36 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">224.23 &micro;s</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">Comprehension</td>
-    <td style="white-space: nowrap; text-align: right">6.87 K</td>
-    <td style="white-space: nowrap; text-align: right">145.54 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">&plusmn;22.24%</td>
-    <td style="white-space: nowrap; text-align: right">138.09 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">286.68 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">7.62 K</td>
+    <td style="white-space: nowrap; text-align: right">131.16 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">&plusmn;25.18%</td>
+    <td style="white-space: nowrap; text-align: right">122.61 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">262.52 &micro;s</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">Enum.filter + Enum.reduce</td>
-    <td style="white-space: nowrap; text-align: right">2.56 K</td>
-    <td style="white-space: nowrap; text-align: right">391.11 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">&plusmn;25.71%</td>
-    <td style="white-space: nowrap; text-align: right">361.85 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">799.04 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">2.70 K</td>
+    <td style="white-space: nowrap; text-align: right">369.92 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">&plusmn;24.53%</td>
+    <td style="white-space: nowrap; text-align: right">340.41 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">760.82 &micro;s</td>
   </tr>
 
 </table>
@@ -129,38 +129,38 @@ Run Time Comparison
     <th style="text-align: right">Slower</th>
   <tr>
     <td style="white-space: nowrap">Tail recursion</td>
-    <td style="white-space: nowrap;text-align: right">11.39 K</td>
+    <td style="white-space: nowrap;text-align: right">14.89 K</td>
     <td>&nbsp;</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">Tail recursion + Enum.reverse</td>
-    <td style="white-space: nowrap; text-align: right">9.03 K</td>
-    <td style="white-space: nowrap; text-align: right">1.26x</td>
+    <td style="white-space: nowrap; text-align: right">10.93 K</td>
+    <td style="white-space: nowrap; text-align: right">1.36x</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">Body recursion</td>
-    <td style="white-space: nowrap; text-align: right">7.98 K</td>
-    <td style="white-space: nowrap; text-align: right">1.43x</td>
+    <td style="white-space: nowrap; text-align: right">9.38 K</td>
+    <td style="white-space: nowrap; text-align: right">1.59x</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">Enum.reduce</td>
-    <td style="white-space: nowrap; text-align: right">7.43 K</td>
-    <td style="white-space: nowrap; text-align: right">1.53x</td>
+    <td style="white-space: nowrap; text-align: right">8.08 K</td>
+    <td style="white-space: nowrap; text-align: right">1.84x</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">Comprehension</td>
-    <td style="white-space: nowrap; text-align: right">6.87 K</td>
-    <td style="white-space: nowrap; text-align: right">1.66x</td>
+    <td style="white-space: nowrap; text-align: right">7.62 K</td>
+    <td style="white-space: nowrap; text-align: right">1.95x</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">Enum.filter + Enum.reduce</td>
-    <td style="white-space: nowrap; text-align: right">2.56 K</td>
-    <td style="white-space: nowrap; text-align: right">4.46x</td>
+    <td style="white-space: nowrap; text-align: right">2.70 K</td>
+    <td style="white-space: nowrap; text-align: right">5.51x</td>
   </tr>
 
 </table>
@@ -209,6 +209,166 @@ Memory Usage
 
 
 
+__Input: Big only numbers__
+
+Run Time
+
+<table style="width: 1%">
+  <tr>
+    <th>Name</th>
+    <th style="text-align: right">IPS</th>
+    <th style="text-align: right">Average</th>
+    <th style="text-align: right">Devitation</th>
+    <th style="text-align: right">Median</th>
+    <th style="text-align: right">99th&nbsp;%</th>
+  </tr>
+
+  <tr>
+    <td style="white-space: nowrap">Tail recursion</td>
+    <td style="white-space: nowrap; text-align: right">14.54 K</td>
+    <td style="white-space: nowrap; text-align: right">68.80 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">&plusmn;15.29%</td>
+    <td style="white-space: nowrap; text-align: right">68.77 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">114.82 &micro;s</td>
+  </tr>
+
+  <tr>
+    <td style="white-space: nowrap">Tail recursion + Enum.reverse</td>
+    <td style="white-space: nowrap; text-align: right">10.04 K</td>
+    <td style="white-space: nowrap; text-align: right">99.58 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">&plusmn;20.87%</td>
+    <td style="white-space: nowrap; text-align: right">89.64 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">186.18 &micro;s</td>
+  </tr>
+
+  <tr>
+    <td style="white-space: nowrap">Enum.reduce</td>
+    <td style="white-space: nowrap; text-align: right">8.93 K</td>
+    <td style="white-space: nowrap; text-align: right">112.00 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">&plusmn;17.21%</td>
+    <td style="white-space: nowrap; text-align: right">108.33 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">186.34 &micro;s</td>
+  </tr>
+
+  <tr>
+    <td style="white-space: nowrap">Comprehension</td>
+    <td style="white-space: nowrap; text-align: right">6.86 K</td>
+    <td style="white-space: nowrap; text-align: right">145.85 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">&plusmn;34.46%</td>
+    <td style="white-space: nowrap; text-align: right">130.46 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">289.11 &micro;s</td>
+  </tr>
+
+  <tr>
+    <td style="white-space: nowrap">Body recursion</td>
+    <td style="white-space: nowrap; text-align: right">6.74 K</td>
+    <td style="white-space: nowrap; text-align: right">148.31 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">&plusmn;35.69%</td>
+    <td style="white-space: nowrap; text-align: right">136.92 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">278.16 &micro;s</td>
+  </tr>
+
+  <tr>
+    <td style="white-space: nowrap">Enum.filter + Enum.reduce</td>
+    <td style="white-space: nowrap; text-align: right">2.78 K</td>
+    <td style="white-space: nowrap; text-align: right">359.27 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">&plusmn;26.08%</td>
+    <td style="white-space: nowrap; text-align: right">327.86 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">784.98 &micro;s</td>
+  </tr>
+
+</table>
+
+
+Run Time Comparison
+
+<table style="width: 1%">
+  <tr>
+    <th>Name</th>
+    <th style="text-align: right">IPS</th>
+    <th style="text-align: right">Slower</th>
+  <tr>
+    <td style="white-space: nowrap">Tail recursion</td>
+    <td style="white-space: nowrap;text-align: right">14.54 K</td>
+    <td>&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td style="white-space: nowrap">Tail recursion + Enum.reverse</td>
+    <td style="white-space: nowrap; text-align: right">10.04 K</td>
+    <td style="white-space: nowrap; text-align: right">1.45x</td>
+  </tr>
+
+  <tr>
+    <td style="white-space: nowrap">Enum.reduce</td>
+    <td style="white-space: nowrap; text-align: right">8.93 K</td>
+    <td style="white-space: nowrap; text-align: right">1.63x</td>
+  </tr>
+
+  <tr>
+    <td style="white-space: nowrap">Comprehension</td>
+    <td style="white-space: nowrap; text-align: right">6.86 K</td>
+    <td style="white-space: nowrap; text-align: right">2.12x</td>
+  </tr>
+
+  <tr>
+    <td style="white-space: nowrap">Body recursion</td>
+    <td style="white-space: nowrap; text-align: right">6.74 K</td>
+    <td style="white-space: nowrap; text-align: right">2.16x</td>
+  </tr>
+
+  <tr>
+    <td style="white-space: nowrap">Enum.filter + Enum.reduce</td>
+    <td style="white-space: nowrap; text-align: right">2.78 K</td>
+    <td style="white-space: nowrap; text-align: right">5.22x</td>
+  </tr>
+
+</table>
+
+
+
+Memory Usage
+
+<table style="width: 1%">
+  <tr>
+    <th>Name</th>
+    <th style="text-align: right">Average</th>
+    <th style="text-align: right">Factor</th>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Tail recursion</td>
+    <td style="white-space: nowrap">156.27 KB</td>
+    <td>&nbsp;</td>
+  </tr>
+    <tr>
+    <td style="white-space: nowrap">Tail recursion + Enum.reverse</td>
+    <td style="white-space: nowrap">223.98 KB</td>
+    <td>1.43x</td>
+  </tr>
+    <tr>
+    <td style="white-space: nowrap">Enum.reduce</td>
+    <td style="white-space: nowrap">156.31 KB</td>
+    <td>1.0x</td>
+  </tr>
+    <tr>
+    <td style="white-space: nowrap">Comprehension</td>
+    <td style="white-space: nowrap">223.98 KB</td>
+    <td>1.43x</td>
+  </tr>
+    <tr>
+    <td style="white-space: nowrap">Body recursion</td>
+    <td style="white-space: nowrap">156.27 KB</td>
+    <td>1.0x</td>
+  </tr>
+    <tr>
+    <td style="white-space: nowrap">Enum.filter + Enum.reduce</td>
+    <td style="white-space: nowrap">312.58 KB</td>
+    <td>2.0x</td>
+  </tr>
+</table>
+
+
+
 __Input: Medium__
 
 Run Time
@@ -225,56 +385,56 @@ Run Time
 
   <tr>
     <td style="white-space: nowrap">Tail recursion</td>
-    <td style="white-space: nowrap; text-align: right">118.21 K</td>
-    <td style="white-space: nowrap; text-align: right">8.46 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">&plusmn;148.60%</td>
-    <td style="white-space: nowrap; text-align: right">7.60 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">19.58 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">141.48 K</td>
+    <td style="white-space: nowrap; text-align: right">7.07 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">&plusmn;138.33%</td>
+    <td style="white-space: nowrap; text-align: right">6.71 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">17.18 &micro;s</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">Tail recursion + Enum.reverse</td>
-    <td style="white-space: nowrap; text-align: right">98.04 K</td>
-    <td style="white-space: nowrap; text-align: right">10.20 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">&plusmn;47.47%</td>
-    <td style="white-space: nowrap; text-align: right">9.13 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">23.35 &micro;s</td>
-  </tr>
-
-  <tr>
-    <td style="white-space: nowrap">Enum.reduce</td>
-    <td style="white-space: nowrap; text-align: right">79.91 K</td>
-    <td style="white-space: nowrap; text-align: right">12.51 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">&plusmn;42.59%</td>
-    <td style="white-space: nowrap; text-align: right">11.58 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">25.86 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">120.05 K</td>
+    <td style="white-space: nowrap; text-align: right">8.33 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">&plusmn;109.48%</td>
+    <td style="white-space: nowrap; text-align: right">7.80 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">17.41 &micro;s</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">Body recursion</td>
-    <td style="white-space: nowrap; text-align: right">75.09 K</td>
-    <td style="white-space: nowrap; text-align: right">13.32 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">&plusmn;44.49%</td>
-    <td style="white-space: nowrap; text-align: right">12.23 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">26.30 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">85.94 K</td>
+    <td style="white-space: nowrap; text-align: right">11.64 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">&plusmn;89.47%</td>
+    <td style="white-space: nowrap; text-align: right">10.89 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">23.68 &micro;s</td>
+  </tr>
+
+  <tr>
+    <td style="white-space: nowrap">Enum.reduce</td>
+    <td style="white-space: nowrap; text-align: right">69.94 K</td>
+    <td style="white-space: nowrap; text-align: right">14.30 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">&plusmn;98.04%</td>
+    <td style="white-space: nowrap; text-align: right">11.93 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">33.40 &micro;s</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">Comprehension</td>
-    <td style="white-space: nowrap; text-align: right">72.37 K</td>
-    <td style="white-space: nowrap; text-align: right">13.82 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">&plusmn;55.39%</td>
-    <td style="white-space: nowrap; text-align: right">12.45 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">30.57 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">68.95 K</td>
+    <td style="white-space: nowrap; text-align: right">14.50 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">&plusmn;77.03%</td>
+    <td style="white-space: nowrap; text-align: right">12.41 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">34.28 &micro;s</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">Enum.filter + Enum.reduce</td>
-    <td style="white-space: nowrap; text-align: right">24.67 K</td>
-    <td style="white-space: nowrap; text-align: right">40.53 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">&plusmn;32.78%</td>
-    <td style="white-space: nowrap; text-align: right">36.28 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">88.68 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">30.93 K</td>
+    <td style="white-space: nowrap; text-align: right">32.33 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">&plusmn;23.42%</td>
+    <td style="white-space: nowrap; text-align: right">30.90 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">59.44 &micro;s</td>
   </tr>
 
 </table>
@@ -289,38 +449,38 @@ Run Time Comparison
     <th style="text-align: right">Slower</th>
   <tr>
     <td style="white-space: nowrap">Tail recursion</td>
-    <td style="white-space: nowrap;text-align: right">118.21 K</td>
+    <td style="white-space: nowrap;text-align: right">141.48 K</td>
     <td>&nbsp;</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">Tail recursion + Enum.reverse</td>
-    <td style="white-space: nowrap; text-align: right">98.04 K</td>
-    <td style="white-space: nowrap; text-align: right">1.21x</td>
-  </tr>
-
-  <tr>
-    <td style="white-space: nowrap">Enum.reduce</td>
-    <td style="white-space: nowrap; text-align: right">79.91 K</td>
-    <td style="white-space: nowrap; text-align: right">1.48x</td>
+    <td style="white-space: nowrap; text-align: right">120.05 K</td>
+    <td style="white-space: nowrap; text-align: right">1.18x</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">Body recursion</td>
-    <td style="white-space: nowrap; text-align: right">75.09 K</td>
-    <td style="white-space: nowrap; text-align: right">1.57x</td>
+    <td style="white-space: nowrap; text-align: right">85.94 K</td>
+    <td style="white-space: nowrap; text-align: right">1.65x</td>
+  </tr>
+
+  <tr>
+    <td style="white-space: nowrap">Enum.reduce</td>
+    <td style="white-space: nowrap; text-align: right">69.94 K</td>
+    <td style="white-space: nowrap; text-align: right">2.02x</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">Comprehension</td>
-    <td style="white-space: nowrap; text-align: right">72.37 K</td>
-    <td style="white-space: nowrap; text-align: right">1.63x</td>
+    <td style="white-space: nowrap; text-align: right">68.95 K</td>
+    <td style="white-space: nowrap; text-align: right">2.05x</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">Enum.filter + Enum.reduce</td>
-    <td style="white-space: nowrap; text-align: right">24.67 K</td>
-    <td style="white-space: nowrap; text-align: right">4.79x</td>
+    <td style="white-space: nowrap; text-align: right">30.93 K</td>
+    <td style="white-space: nowrap; text-align: right">4.57x</td>
   </tr>
 
 </table>
@@ -346,13 +506,13 @@ Memory Usage
     <td>1.28x</td>
   </tr>
     <tr>
-    <td style="white-space: nowrap">Enum.reduce</td>
-    <td style="white-space: nowrap">15.69 KB</td>
+    <td style="white-space: nowrap">Body recursion</td>
+    <td style="white-space: nowrap">15.64 KB</td>
     <td>1.0x</td>
   </tr>
     <tr>
-    <td style="white-space: nowrap">Body recursion</td>
-    <td style="white-space: nowrap">15.64 KB</td>
+    <td style="white-space: nowrap">Enum.reduce</td>
+    <td style="white-space: nowrap">15.69 KB</td>
     <td>1.0x</td>
   </tr>
     <tr>
@@ -384,57 +544,57 @@ Run Time
   </tr>
 
   <tr>
-    <td style="white-space: nowrap">Tail recursion + Enum.reverse</td>
-    <td style="white-space: nowrap; text-align: right">861.95 K</td>
-    <td style="white-space: nowrap; text-align: right">1.16 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">&plusmn;2058.55%</td>
-    <td style="white-space: nowrap; text-align: right">0.97 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">2.23 &micro;s</td>
+    <td style="white-space: nowrap">Tail recursion</td>
+    <td style="white-space: nowrap; text-align: right">1137.41 K</td>
+    <td style="white-space: nowrap; text-align: right">0.88 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">&plusmn;1860.24%</td>
+    <td style="white-space: nowrap; text-align: right">0.74 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">2.08 &micro;s</td>
   </tr>
 
   <tr>
-    <td style="white-space: nowrap">Tail recursion</td>
-    <td style="white-space: nowrap; text-align: right">841.57 K</td>
-    <td style="white-space: nowrap; text-align: right">1.19 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">&plusmn;2408.88%</td>
-    <td style="white-space: nowrap; text-align: right">0.95 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">2.84 &micro;s</td>
+    <td style="white-space: nowrap">Tail recursion + Enum.reverse</td>
+    <td style="white-space: nowrap; text-align: right">939.82 K</td>
+    <td style="white-space: nowrap; text-align: right">1.06 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">&plusmn;1640.00%</td>
+    <td style="white-space: nowrap; text-align: right">0.88 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">2.50 &micro;s</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">Body recursion</td>
-    <td style="white-space: nowrap; text-align: right">657.56 K</td>
-    <td style="white-space: nowrap; text-align: right">1.52 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">&plusmn;1390.58%</td>
-    <td style="white-space: nowrap; text-align: right">1.27 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">3.13 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">720.67 K</td>
+    <td style="white-space: nowrap; text-align: right">1.39 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">&plusmn;1257.33%</td>
+    <td style="white-space: nowrap; text-align: right">1.16 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">2.75 &micro;s</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">Enum.reduce</td>
-    <td style="white-space: nowrap; text-align: right">592.90 K</td>
-    <td style="white-space: nowrap; text-align: right">1.69 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">&plusmn;1481.70%</td>
-    <td style="white-space: nowrap; text-align: right">1.37 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">3.63 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">651.31 K</td>
+    <td style="white-space: nowrap; text-align: right">1.54 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">&plusmn;1215.94%</td>
+    <td style="white-space: nowrap; text-align: right">1.27 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">3.48 &micro;s</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">Comprehension</td>
-    <td style="white-space: nowrap; text-align: right">544.87 K</td>
-    <td style="white-space: nowrap; text-align: right">1.84 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">&plusmn;1178.60%</td>
-    <td style="white-space: nowrap; text-align: right">1.52 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">4.07 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">585.87 K</td>
+    <td style="white-space: nowrap; text-align: right">1.71 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">&plusmn;845.54%</td>
+    <td style="white-space: nowrap; text-align: right">1.47 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">3.60 &micro;s</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">Enum.filter + Enum.reduce</td>
-    <td style="white-space: nowrap; text-align: right">223.57 K</td>
-    <td style="white-space: nowrap; text-align: right">4.47 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">&plusmn;264.75%</td>
-    <td style="white-space: nowrap; text-align: right">3.93 &micro;s</td>
-    <td style="white-space: nowrap; text-align: right">8.87 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">245.29 K</td>
+    <td style="white-space: nowrap; text-align: right">4.08 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">&plusmn;422.52%</td>
+    <td style="white-space: nowrap; text-align: right">3.60 &micro;s</td>
+    <td style="white-space: nowrap; text-align: right">8.28 &micro;s</td>
   </tr>
 
 </table>
@@ -448,39 +608,39 @@ Run Time Comparison
     <th style="text-align: right">IPS</th>
     <th style="text-align: right">Slower</th>
   <tr>
-    <td style="white-space: nowrap">Tail recursion + Enum.reverse</td>
-    <td style="white-space: nowrap;text-align: right">861.95 K</td>
+    <td style="white-space: nowrap">Tail recursion</td>
+    <td style="white-space: nowrap;text-align: right">1137.41 K</td>
     <td>&nbsp;</td>
   </tr>
 
   <tr>
-    <td style="white-space: nowrap">Tail recursion</td>
-    <td style="white-space: nowrap; text-align: right">841.57 K</td>
-    <td style="white-space: nowrap; text-align: right">1.02x</td>
+    <td style="white-space: nowrap">Tail recursion + Enum.reverse</td>
+    <td style="white-space: nowrap; text-align: right">939.82 K</td>
+    <td style="white-space: nowrap; text-align: right">1.21x</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">Body recursion</td>
-    <td style="white-space: nowrap; text-align: right">657.56 K</td>
-    <td style="white-space: nowrap; text-align: right">1.31x</td>
-  </tr>
-
-  <tr>
-    <td style="white-space: nowrap">Enum.reduce</td>
-    <td style="white-space: nowrap; text-align: right">592.90 K</td>
-    <td style="white-space: nowrap; text-align: right">1.45x</td>
-  </tr>
-
-  <tr>
-    <td style="white-space: nowrap">Comprehension</td>
-    <td style="white-space: nowrap; text-align: right">544.87 K</td>
+    <td style="white-space: nowrap; text-align: right">720.67 K</td>
     <td style="white-space: nowrap; text-align: right">1.58x</td>
   </tr>
 
   <tr>
+    <td style="white-space: nowrap">Enum.reduce</td>
+    <td style="white-space: nowrap; text-align: right">651.31 K</td>
+    <td style="white-space: nowrap; text-align: right">1.75x</td>
+  </tr>
+
+  <tr>
+    <td style="white-space: nowrap">Comprehension</td>
+    <td style="white-space: nowrap; text-align: right">585.87 K</td>
+    <td style="white-space: nowrap; text-align: right">1.94x</td>
+  </tr>
+
+  <tr>
     <td style="white-space: nowrap">Enum.filter + Enum.reduce</td>
-    <td style="white-space: nowrap; text-align: right">223.57 K</td>
-    <td style="white-space: nowrap; text-align: right">3.86x</td>
+    <td style="white-space: nowrap; text-align: right">245.29 K</td>
+    <td style="white-space: nowrap; text-align: right">4.64x</td>
   </tr>
 
 </table>
@@ -496,33 +656,33 @@ Memory Usage
     <th style="text-align: right">Factor</th>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Tail recursion + Enum.reverse</td>
-    <td style="white-space: nowrap">1.88 KB</td>
+    <td style="white-space: nowrap">Tail recursion</td>
+    <td style="white-space: nowrap">1.58 KB</td>
     <td>&nbsp;</td>
   </tr>
     <tr>
-    <td style="white-space: nowrap">Tail recursion</td>
-    <td style="white-space: nowrap">1.58 KB</td>
-    <td>0.84x</td>
+    <td style="white-space: nowrap">Tail recursion + Enum.reverse</td>
+    <td style="white-space: nowrap">1.88 KB</td>
+    <td>1.19x</td>
   </tr>
     <tr>
     <td style="white-space: nowrap">Body recursion</td>
     <td style="white-space: nowrap">1.58 KB</td>
-    <td>0.84x</td>
+    <td>1.0x</td>
   </tr>
     <tr>
     <td style="white-space: nowrap">Enum.reduce</td>
     <td style="white-space: nowrap">1.63 KB</td>
-    <td>0.87x</td>
+    <td>1.03x</td>
   </tr>
     <tr>
     <td style="white-space: nowrap">Comprehension</td>
     <td style="white-space: nowrap">1.88 KB</td>
-    <td>1.0x</td>
+    <td>1.19x</td>
   </tr>
     <tr>
     <td style="white-space: nowrap">Enum.filter + Enum.reduce</td>
     <td style="white-space: nowrap">3.20 KB</td>
-    <td>1.71x</td>
+    <td>2.03x</td>
   </tr>
 </table>
