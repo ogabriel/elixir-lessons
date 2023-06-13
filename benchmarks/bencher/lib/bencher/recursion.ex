@@ -4,6 +4,13 @@ defmodule Bencher.Recursion do
   @behaviour Bencher.Base
 
   def run do
+    inputs = inputs()
+
+    reduce(inputs)
+    map(inputs)
+  end
+
+  def reduce(inputs \\ inputs()) do
     Benchee.run(
       %{
         "Body recursion" => fn input -> Recursion.BodyRecursion.sum_numbers(input) end,
@@ -13,13 +20,15 @@ defmodule Bencher.Recursion do
           Recursion.EnumFilterReduce.sum_numbers(input)
         end
       },
-      inputs: inputs(),
+      inputs: inputs,
       memory_time: 5,
       formatters: [
         {Benchee.Formatters.Markdown, file: "../reduce_recursion.md"}
       ]
     )
+  end
 
+  def map(inputs \\ inputs()) do
     Benchee.run(
       %{
         "Body recursion" => fn input -> Recursion.BodyRecursion.double_numbers(input) end,
@@ -33,7 +42,7 @@ defmodule Bencher.Recursion do
         end,
         "Comprehension" => fn input -> for num when is_number(num) <- input, do: num * 2 end
       },
-      inputs: inputs(),
+      inputs: inputs,
       memory_time: 5,
       formatters: [
         {Benchee.Formatters.Markdown, file: "../map_recursion.md"}
