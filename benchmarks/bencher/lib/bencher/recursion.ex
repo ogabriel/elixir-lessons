@@ -16,7 +16,23 @@ defmodule Bencher.Recursion do
       inputs: inputs(),
       memory_time: 5,
       formatters: [
-        {Benchee.Formatters.Markdown, file: "../recursion.md"}
+        {Benchee.Formatters.Markdown, file: "../reduce_recursion.md"}
+      ]
+    )
+
+    Benchee.run(
+      %{
+        "Body recursion" => fn input -> Recursion.BodyRecursion.double_numbers(input) end,
+        "Tail recursion" => fn input -> Recursion.TailRecursion.double_numbers(input) end,
+        "Enum.reduce" => fn input -> Recursion.EnumReduce.double_numbers(input) end,
+        "Enum.filter + Enum.reduce" => fn input ->
+          Recursion.EnumFilterReduce.double_numbers(input)
+        end
+      },
+      inputs: inputs(),
+      memory_time: 5,
+      formatters: [
+        {Benchee.Formatters.Markdown, file: "../map_recursion.md"}
       ]
     )
   end
