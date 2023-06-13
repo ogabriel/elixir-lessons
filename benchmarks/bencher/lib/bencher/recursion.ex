@@ -24,10 +24,14 @@ defmodule Bencher.Recursion do
       %{
         "Body recursion" => fn input -> Recursion.BodyRecursion.double_numbers(input) end,
         "Tail recursion" => fn input -> Recursion.TailRecursion.double_numbers(input) end,
+        "Tail recursion + Enum.reverse" => fn input ->
+          Recursion.TailRecursion.double_numbers(input) |> Enum.reverse()
+        end,
         "Enum.reduce" => fn input -> Recursion.EnumReduce.double_numbers(input) end,
         "Enum.filter + Enum.reduce" => fn input ->
           Recursion.EnumFilterReduce.double_numbers(input)
-        end
+        end,
+        "Comprehension" => fn input -> for num when is_number(num) <- input, do: num * 2 end
       },
       inputs: inputs(),
       memory_time: 5,
