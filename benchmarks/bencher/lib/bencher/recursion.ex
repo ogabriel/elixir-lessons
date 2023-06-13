@@ -29,6 +29,12 @@ defmodule Bencher.Recursion do
   end
 
   def map(inputs \\ inputs()) do
+    big = Map.get(inputs, "Big") |> Enum.filter(&is_number/1)
+
+    inputs =
+      inputs
+      |> Map.put("Big only numbers", big)
+
     Benchee.run(
       %{
         "Body recursion" => fn input -> Recursion.BodyRecursion.double_numbers(input) end,
