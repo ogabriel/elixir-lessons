@@ -14,4 +14,20 @@ defmodule Bencher.Recursion.TailRecursion do
   defp do_sum_numbers([], sum) do
     sum
   end
+
+  def double_numbers(list) do
+    do_double_numbers(list, [])
+  end
+
+  defp do_double_numbers([head | tail], list) when is_number(head) do
+    do_double_numbers(tail, [head | list])
+  end
+
+  defp do_double_numbers([_head | tail], list) do
+    do_double_numbers(tail, list)
+  end
+
+  defp do_double_numbers([], list) do
+    list
+  end
 end
