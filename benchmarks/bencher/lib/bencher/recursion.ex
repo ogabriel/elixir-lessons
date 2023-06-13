@@ -8,7 +8,10 @@ defmodule Bencher.Recursion do
       %{
         "Body recursion" => fn input -> Recursion.BodyRecursion.sum_numbers(input) end,
         "Tail recursion" => fn input -> Recursion.TailRecursion.sum_numbers(input) end,
-        "Enum.reduce" => fn input -> Recursion.EnumReduce.sum_numbers(input) end
+        "Enum.reduce" => fn input -> Recursion.EnumReduce.sum_numbers(input) end,
+        "Enum.filter + Enum.reduce" => fn input ->
+          Recursion.EnumFilterReduce.sum_numbers(input)
+        end
       },
       inputs: inputs(),
       memory_time: 5,
